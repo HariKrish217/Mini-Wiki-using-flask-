@@ -4,6 +4,7 @@ A simple Wikipedia-like web app built with Flask, where users can search for top
 This project demonstrates how to integrate APIs, manage Flask routes, and render dynamic content with templates.
 
 🚀 **Features**
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔎 **Search Bar**: Search for any topic or keyword
 
@@ -16,7 +17,7 @@ This project demonstrates how to integrate APIs, manage Flask routes, and render
 ⚠️ **Error Handling**: Graceful response for invalid or missing pages
 
 🧰 **Tech Stack**
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Backend: Flask (Python)
 
 Frontend: HTML, CSS, Bootstrap / Sass
@@ -25,26 +26,27 @@ API: Wikipedia REST API (https://en.wikipedia.org/api/rest_v1/page/summary/{topi
 
 Language: Python 3
 
-📦 **Installation**
 
-Clone the repository
+📦 **Installation**
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Clone the repository***
 
 git clone https://github.com/yourusername/mini-wiki-flask.git
 cd mini-wiki-flask
 
 
-Create and activate a virtual environment
+***Create and activate a virtual environment***
 
 python -m venv env
 source env/bin/activate  # on Windows: env\Scripts\activate
 
 
-Install dependencies
+***Install dependencies***
 
 pip install -r [requirements.txt](requirements.txt)
 
 
-Run the Flask server
+***Run the Flask server***
 
 python app.py
 
@@ -53,6 +55,7 @@ The app will start on:
 👉 http://127.0.0.1:5000/
 
 ⚙️ Project Structure
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 mini-wiki-flask/
 │
 ├── app.py                   # Main Flask app file
@@ -79,10 +82,10 @@ mini-wiki-flask/
 
 ├── requirements.txt         # Dependencies
 
-└── README.md                # Project documentation
-
+└── [README.md](README.md)                # Project documentation
 
 🧑‍💻 Usage
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Open the homepage.
 
@@ -101,11 +104,14 @@ Image (if available)
 If no results are found, it will show an error page.
 
 🪄 Example
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Search: India
+
 Result: Displays a short summary about India along with an image and a link to the full Wikipedia page.
 
 🧩 Future Enhancements
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔎 Auto-suggest search results
 
@@ -116,7 +122,7 @@ Result: Displays a short summary about India along with an image and a link to t
 🌙 Dark mode support
 
 🤝 Contributing
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Feel free to fork the repo, open issues, or submit pull requests.
 Contributions, ideas, and improvements are always welcome!
 
