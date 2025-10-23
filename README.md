@@ -1,21 +1,21 @@
-Mini Wiki – Flask Project
+***Mini Wiki – Flask Project***
 
 A simple Wikipedia-like web app built with Flask, where users can search for topics, view summaries, and explore quick facts using the Wikipedia API.
 This project demonstrates how to integrate APIs, manage Flask routes, and render dynamic content with templates.
 
-🚀 Features
+🚀 **Features**
 
-🔎 Search Bar: Search for any topic or keyword
+🔎 **Search Bar**: Search for any topic or keyword
 
-📄 Summary View: Fetch and display short summaries from Wikipedia
+📄 **Summary View**: Fetch and display short summaries from Wikipedia
 
-🖼️ Image Support: Show the main image of the searched article (if available)
+🖼️ **Image Support**: Show the main image of the searched article (if available)
 
-🧩 Dynamic Rendering: Flask templates render live data from the API
+🧩 **Dynamic Rendering**: Flask templates render live data from the API
 
-⚠️ Error Handling: Graceful response for invalid or missing pages
+⚠️ **Error Handling**: Graceful response for invalid or missing pages
 
-🧰 Tech Stack
+🧰 **Tech Stack**
 
 Backend: Flask (Python)
 
@@ -25,7 +25,7 @@ API: Wikipedia REST API (https://en.wikipedia.org/api/rest_v1/page/summary/{topi
 
 Language: Python 3
 
-📦 Installation
+📦 **Installation**
 
 Clone the repository
 
@@ -41,7 +41,7 @@ source env/bin/activate  # on Windows: env\Scripts\activate
 
 Install dependencies
 
-pip install -r requirements.txt
+pip install -r [requirements.txt](requirements.txt)
 
 
 Run the Flask server
