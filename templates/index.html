@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Home Page</title>
+{% endblock %}
+
+{% block body %}
+    <section class="search-page">
+    <h1>Welcome to mini wiki!</h1>
+    <form class="search-form" action="/search" method="POST">
+        <label for:"wiki" class="search-label">Enter a keyword to search </label>
+        <input id="wiki" class="search-input" type="text" name="search" placeholder="WIKI SEARCH" required>
+        <br>
+        <button class="search-button" type="submit">SEARCH</button>
+    </form>
+{% endblock %}

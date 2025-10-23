@@ -1,0 +1,74 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: rgba(237, 5, 129, 0.968627451);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #2d6cdf;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2d6cdf;
+}
+
+.search-page {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Segoe UI", sans-serif;
+}
+.search-page .page-title {
+  color: #2d6cdf;
+  margin-bottom: 20px;
+}
+.search-page .search-form {
+  display: inline-block;
+}
+.search-page .search-form .search-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.search-page .search-form .search-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+  margin-right: 10px;
+}
+.search-page .search-form .search-button {
+  background-color: #2d6cdf;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.search-page .search-form .search-button:hover {
+  background-color: #1e4f9a;
+}
+
+.result-page {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+}
+.result-page .result-container {
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.result-page .result-title {
+  color: #2d6cdf;
+  margin-bottom: 10px;
+}
+.result-page .result-summary {
+  color: #333;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=styles.css.map */

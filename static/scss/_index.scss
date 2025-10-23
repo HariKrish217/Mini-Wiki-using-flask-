@@ -1,0 +1,41 @@
+.search-page {
+  text-align: center;
+  margin-top: 80px;
+  font-family: 'Segoe UI', sans-serif;
+
+  .page-title {
+    color: #2d6cdf;
+    margin-bottom: 20px;
+  }
+
+  .search-form {
+    display: inline-block;
+
+    .search-label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .search-input {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      width: 250px;
+      margin-right: 10px;
+    }
+
+    .search-button {
+      background-color: #2d6cdf;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #1e4f9a;
+      }
+    }
+  }
+}

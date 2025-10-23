@@ -1,0 +1,17 @@
+@use 'variable';
+body {
+  font-family:  'Segoe UI', sans-serif;
+  background-color: variable.$bg-color;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: variable.$primary-color;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: variable.$primary-color;
+}

@@ -1,0 +1,23 @@
+@use 'variable';
+.result-page {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+
+  .result-container {
+    background-color: white;
+    border-radius: variable.$border-radius;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .result-title {
+    color: variable.$primary-color;
+    margin-bottom: 10px;
+  }
+
+  .result-summary {
+    color: variable.$text-color;
+    line-height: 1.5;
+  }
+}

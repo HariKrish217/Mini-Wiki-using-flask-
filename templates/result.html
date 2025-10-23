@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <h1>Your result</h1>
+
+{% endblock %}
+
+{% block body %}
+    <section class="result-page">
+    {% if image %}
+        <img src="{{ image }}" alt="{{ title }}" width="250">
+    {% endif %}
+    <h2>{{ title }}</h2>
+    <p>{{ summary or result }}</p>
+
+  <a href="/"> back </a>
+{% endblock %}
