@@ -56,18 +56,31 @@ The app will start on:
 mini-wiki-flask/
 │
 ├── app.py                   # Main Flask app file
+
 ├── templates/
+
 │   ├── index.html           # Home + search page
+
 │   ├── result.html          # Displays search result
+
 │   └── error.html           # Error page for missing topics
+
 │
+
 ├── static/
+
 │   ├── css/
+
 │   │   └── style.css        # Custom styles or compiled Sass
+
 │   └── scss/                # Optional Sass source files
+
 │
+
 ├── requirements.txt         # Dependencies
+
 └── README.md                # Project documentation
+
 
 🧑‍💻 Usage
 
@@ -110,4 +123,5 @@ Contributions, ideas, and improvements are always welcome!
 🧑‍🎓 Credits
 
 Developed by Arch 💙
+
 Data powered by Wikipedia REST API
